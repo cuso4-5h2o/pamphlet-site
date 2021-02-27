@@ -18,7 +18,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         personal_token: ${{ secrets.GITHUB_TOKEN }}
-        external_repository: cuso4-5h2o/pamphlet
+        external_repository: cuso4-5h2o/pamphlet-site
         publish_branch: pages
         publish_dir: ./out
     - name: Purge Cloudflare cache
